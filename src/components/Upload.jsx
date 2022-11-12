@@ -19,7 +19,7 @@ function AllInOne() {
     toast.loading("Analyzing!")
     event.preventDefault()
     console.log("file",file)
-    const url = 'http://localhost:8083/rest/detection';
+    const url = 'https://minor-project-backend.rishika.xyz/rest/detection';
     const formData = new FormData();
     formData.append('file', file, file.name);
     // formData.append('fileName', file.name);
