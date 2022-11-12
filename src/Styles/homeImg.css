@@ -1,0 +1,24 @@
+#image-section{
+    width: 30%;
+    height: auto;
+    position: absolute;
+    top:20%; 
+    left: 60%;
+  };
+
+
+@media screen and (max-width: 320px){
+
+    #image-section{
+        width: 100%;
+        height: auto;
+      };
+    
+    .imgBox{
+        max-width: 400px;
+        min-width: 200px;
+      };
+
+    }
+
+     

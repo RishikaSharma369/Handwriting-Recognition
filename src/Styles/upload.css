@@ -1,0 +1,65 @@
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+   
+}
+.main2 {
+
+    position: relative;
+    top: 50px;
+    background-color: rgb(222, 222, 222);
+    background-size: cover;
+    height: 84vh;
+    margin-top: -50px;
+   
+    
+}
+
+.text2{
+    position: relative;
+    top: 50px;
+    text-align: center;
+}
+.txt h1{
+    text-align: center;
+    font-size: xx-large;
+    font-family:cursive;
+}
+.submit{
+    display:inline-block;
+    /* position:absolute;
+    top: 150px;
+    left: 400px; */
+   
+    
+}
+
+.sbmt{
+    position: relative;
+    background-color: burlywood;
+    width: 100%;
+    padding: 40px 0px 40px 0px;
+
+}
+
+@media screen and (max-width: 320px){
+    body{
+        padding: 0;
+    }
+    .text2 .submit{
+        width: 100%;
+        height: auto;
+      };
+    
+    .txt h1 .submit{
+        max-width: 200px;
+        min-width: 200px;
+      };
+
+      
+
+    }
+
+ 
