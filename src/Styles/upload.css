@@ -5,13 +5,17 @@
 	box-sizing: border-box;
    
 }
+
+.main{
+
+}
 .main2 {
 
     position: relative;
     top: 50px;
     background-color: rgb(222, 222, 222);
     background-size: cover;
-    height: 84vh;
+    height: 79vh;
     margin-top: -50px;
    
     
@@ -27,6 +31,14 @@
     font-size: xx-large;
     font-family:cursive;
 }
+
+.txt h3{
+    
+    text-align: center;
+    position: relative;
+    top: 30px;
+    padding: 10px 0px 0px 0px;
+}
 .submit{
     display:inline-block;
     /* position:absolute;
@@ -38,9 +50,11 @@
 
 .sbmt{
     position: relative;
+    top: 85px;
     background-color: burlywood;
     width: 100%;
-    padding: 40px 0px 40px 0px;
+    padding: 60px 8px 60px 8px;
+    border-radius: 5px;
 
 }
 
@@ -58,7 +72,15 @@
         min-width: 200px;
       };
 
-      
+      .sbmt{
+        position: relative;
+        top: 100px;
+        background-color: burlywood;
+        width: 100%;
+        padding: 50px 0px 50px 0px;
+        border-radius: 5px;
+    
+    }
 
     }
 

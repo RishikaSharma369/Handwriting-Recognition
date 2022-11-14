@@ -36,7 +36,7 @@ function AllInOne() {
 
   return ( 
     result?<Result text={resultText} file={file}/>: 
-    // <div className="main">
+    <div className="main">
     <div className='main2'>
       <div className='text2'>
        <div className='txt'> 
@@ -52,7 +52,7 @@ function AllInOne() {
         </div>
         </div>
         </div>
-        // </div>
+        </div>
     
   );
 }
