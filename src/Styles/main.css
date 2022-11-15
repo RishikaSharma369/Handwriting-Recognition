@@ -8,30 +8,46 @@
 }
 
 :root {
-	--mainColor: #212124;
+	--mainColor: rgb(36, 41, 77);
 	--mainColorLight: #5767aa;
 	--secondaryColor: #d4c24f;
 	--textColor: #eee;
+	
 }
 
 header {
 	display: flex;
 	align-items: center;
 	justify-content:space-between;
-	height: 80px;
+	height: 75px;
 	padding: 0 1rem;
 	background-color: var(--mainColor);
 	color: var(--textColor);
+	
+	
+}
+header h3{
+	
+	border-radius: 4px;
+	padding: 0px 5px 0px 5px;
+	font-weight: 900;
+	border-style: dashed;
+	
 }
 
 nav a {
-	margin: 0 1rem;
+	margin: 0 5rem 0 0;
 	color: var(--textColor);
 	text-decoration: none;
+	font-weight: 900;
+	
+
 }
 
+
 nav a:hover {
-	color: var(--secondaryColor);
+	color: rgb(217, 237, 106);
+	text-decoration-line: underline;
 }
 
 header .nav-btn {
@@ -50,6 +66,8 @@ header div,
 nav {
 	display: flex;
 	align-items: center;
+	position: absolute;
+	left: 30%;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -62,13 +80,13 @@ nav {
 		position: fixed;
 		top: 0;
 		left: 0;
-		height: 13%;
+		height: 10%;
 		width: 100%;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
-		gap: 1rem;
+		gap: 0.5rem;
 		background-color: var(--mainColor);
 		transition: 1s;
 		transform: translateY(-100vh);

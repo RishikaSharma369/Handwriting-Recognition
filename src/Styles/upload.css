@@ -6,30 +6,33 @@
    
 }
 
-.main{
 
-}
 .main2 {
-
+    background-color:rgb(125, 88, 200);
+    background-size: contain;
     position: relative;
     top: 50px;
-    background-color: rgb(222, 222, 222);
     background-size: cover;
-    height: 79vh;
+    height: 84vh;
     margin-top: -50px;
    
     
 }
 
 .text2{
+    
     position: relative;
     top: 50px;
+    color: aliceblue;
     text-align: center;
+  
+
 }
 .txt h1{
     text-align: center;
     font-size: xx-large;
     font-family:cursive;
+    text-shadow: 2px 2px black;
 }
 
 .txt h3{
@@ -38,24 +41,44 @@
     position: relative;
     top: 30px;
     padding: 10px 0px 0px 0px;
+    text-shadow: 2px 2px black;
+    font-weight: bolder;
+    font-size: larger;
 }
 .submit{
     display:inline-block;
     /* position:absolute;
     top: 150px;
     left: 400px; */
-   
+    text-shadow: 20px;
     
 }
 
 .sbmt{
     position: relative;
     top: 85px;
-    background-color: burlywood;
+    background-color: rgb(220, 172, 0);
     width: 100%;
     padding: 60px 8px 60px 8px;
     border-radius: 5px;
+    box-shadow: 6px 6px 5px rgb(54, 48, 48);
 
+}
+
+.upload{
+
+    background-color: rgb(68, 25, 137);
+    color: aliceblue;
+    padding: 4px;
+    border-radius: 2px;
+    border-color: rgb(118, 75, 187);
+}
+
+.upload-file{
+
+    padding: 6px 0px 6px 0px;
+    background-color: rgb(153, 12, 75);
+    
 }
 
 @media screen and (max-width: 320px){
@@ -72,16 +95,10 @@
         min-width: 200px;
       };
 
-      .sbmt{
-        position: relative;
-        top: 100px;
-        background-color: burlywood;
-        width: 100%;
-        padding: 50px 0px 50px 0px;
-        border-radius: 5px;
-    
-    }
+ 
 
     }
 
  
+
+    

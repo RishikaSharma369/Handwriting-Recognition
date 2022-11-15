@@ -36,7 +36,7 @@ function AllInOne() {
 
   return ( 
     result?<Result text={resultText} file={file}/>: 
-    <div className="main">
+    
     <div className='main2'>
       <div className='text2'>
        <div className='txt'> 
@@ -45,14 +45,14 @@ function AllInOne() {
         <div className='submit'>
         <div className='sbmt'>  
         <form onSubmit={handleSubmit} className="form-css">
-          <input type="file" onChange={handleChange}/>
+          <input type="file" onChange={handleChange} className="upload-file"/>
           <button type="submit" className='upload'>Recognize</button>
         </form>
         </div>
         </div>
         </div>
         </div>
-        </div>
+        
     
   );
 }

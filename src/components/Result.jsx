@@ -1,29 +1,31 @@
 import {useEffect} from "react";
-// import "./styles/Result.scss";
-import image1 from '../images/cyber-bg.png'
+import '../Styles/result.css';
 const Result = ({file,text}) => {
   useEffect(() => {
     console.log(file)
     console.log(text)
   }, [])
   return (
-    <div>
-       
+
+    <div className="Result">
+       <div class="pyro">
+    <div class="before"></div>
+    <div class="after"></div>
          <h3>Recognizing is this easy!</h3>
           
         
-        {/* <div><img width='100%' height='400px' src={image1} alt="" /></div> */}
+        <div className="displayImage"></div>
         <h1>Successful!</h1>
         <textarea
           name="text"
           id="textResult"
           cols="52"
-          rows="7"
+         rows="4"
           maxLength={200}
           disabled
           value={text}
         ></textarea>
-    
+    </div>
     </div>
   );
 };

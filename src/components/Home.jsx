@@ -12,9 +12,9 @@ const Home = ()=>{
             <div className="text">
                 <h1 className="heading">Bengal School of Technology and Management</h1>
                 <div className="info">
-                <h1 className="name">Rishika Sharma</h1>
-                <h1 className="subject">Minor Project-2022</h1>
-                <h1 className="theme">Handwriting Recognition</h1>
+                <p style={{fontWeight:"bold",fontFamily:"monospace"}}>Rishika Sharma</p>
+                <p style={{fontWeight:"bold",fontFamily:"monospace"}}>Minor Project-2022</p>
+                <p style={{fontWeight:"bold",fontFamily:"monospace"}}>Handwriting Recognition</p>
                 </div>
                 <div className="extraInfo">
                 <h1>Cloud Computing Technology</h1>

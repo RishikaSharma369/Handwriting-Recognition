@@ -2,8 +2,11 @@
     width: 30%;
     height: auto;
     position: absolute;
-    top:20%; 
-    left: 60%;
+    top:14%; 
+    left: 65%;
+    filter: brightness(120%);
+   filter: contrast(120%);
+   filter: drop-shadow(10px 10px 10px rgb(255, 249, 131));
   };
 
 
@@ -18,7 +21,7 @@
         max-width: 400px;
         min-width: 200px;
       };
-
+    
     }
 
      
