@@ -19,7 +19,9 @@ function AllInOne() {
     toast.loading("Analyzing!")
     event.preventDefault()
     console.log("file",file)
-    const url = 'https://minor-project-backend.rishika.xyz/rest/detection';
+    // const url = 'https://minor-project-backend.rishika.xyz/rest/detection';
+    const url = 'http://localhost:8083/rest/detection';
+
     const formData = new FormData();
     formData.append('file', file, file.name);
     // formData.append('fileName', file.name);
@@ -28,10 +30,19 @@ function AllInOne() {
         'content-type': 'multipart/form-data',
       },
     };
+    try{
     const {data} = await axios.post(url, formData) 
     setResult(true)
+    toast.dismiss()
+    toast.success("Successful!")
     console.log(data)
     setResultText(data)
+    }
+    catch(e){
+      toast.dismiss()
+      toast.error(e.message)
+    }
+    
   }
 
   return ( 

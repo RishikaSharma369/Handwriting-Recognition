@@ -19,6 +19,7 @@
     left: 47%;
     font-weight: 900;
     color: rgb(89, 237, 75);
+    text-decoration: underline;
 }
 
 textarea{
@@ -42,9 +43,9 @@ textarea{
     color: rgb(251, 251, 251);
 }
 
-.displayImage{
+.displayImage img{
 
-    background-color: rgb(91, 201, 226);
+    
     width: 250px;
     height: 150px;
     position: absolute;
@@ -63,6 +64,7 @@ textarea{
             left:70px;
             display: flex;
             align-items: center;
+            padding: 12px 20px;
         }
 
         .Result h1{
@@ -88,13 +90,16 @@ textarea{
     max-width: 60%;
    
     position: absolute;
-    top: 150px;
-    left: 20%;
+    top: 50px;
+    left: 18%;
         }
 
     }
 
-
+textarea value{
+  font-weight: 700;
+  color: #005eff;
+}
 
 
 

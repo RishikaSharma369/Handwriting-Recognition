@@ -1,5 +1,6 @@
 import {useEffect} from "react";
 import '../Styles/result.css';
+import image from "../images/gr.png"
 const Result = ({file,text}) => {
   useEffect(() => {
     console.log(file)
@@ -14,8 +15,10 @@ const Result = ({file,text}) => {
          <h3>Recognizing is this easy!</h3>
           
         
-        <div className="displayImage"></div>
-        <h1>Successful!</h1>
+        <div className="displayImage">
+          <img src={URL.createObjectURL(file)} alt="" />
+        </div>
+        <h1>Your Result</h1>
         <textarea
           name="text"
           id="textResult"
