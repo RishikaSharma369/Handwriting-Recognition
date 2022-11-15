@@ -7,21 +7,20 @@ import Upload from './components/Upload';
 import {BrowserRouter,Route,Routes} from "react-router-dom";
 import { ToastContainer} from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import Result from './components/Result';
+
 
 function App() {
   return (
     <>
       <Navbar/>
-      {/* <BrowserRouter> 
+      <BrowserRouter> 
       <Routes>
       <Route exact path='/' element={<Home/>} />
       <Route exact path='/upload' element={<Upload/>} />
-      </Routes> */}
-      <Result/>
+      </Routes> 
        <Footer/>
-      {/* <ToastContainer />
-      </BrowserRouter> */}
+      <ToastContainer />
+      </BrowserRouter>
     </>
 
   );
