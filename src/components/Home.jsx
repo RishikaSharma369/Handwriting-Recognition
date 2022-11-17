@@ -1,3 +1,4 @@
+
 import React from "react";
 import "../Styles/home.css";
 import"../Styles/homeImg.css";
@@ -33,6 +34,5 @@ const Home = ()=>{
         
     );
 }
-
 
 export default Home;
