@@ -10,7 +10,7 @@ function Navbar() {
 	};
 
 	return (
-		<header>
+		<header className="header">
 			<h3>Handwriting Recognition</h3>
 			<nav ref={navRef}>
 				<a href="/#">Home</a>

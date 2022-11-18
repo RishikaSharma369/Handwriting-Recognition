@@ -3,9 +3,12 @@ import React, {useState} from 'react';
 import Result from './Result';
 import axios from 'axios';
 import {toast} from 'react-toastify';
+import Parti from './Parti';
 import "../Styles/upload.css";
+import Navbar from './Navbar';
 
 function AllInOne() {
+  
   const [file, setFile] = useState()
   const [result, setResult] = useState(false)
   const [resultText, setResultText] = useState("")
@@ -48,6 +51,8 @@ function AllInOne() {
     result?<Result text={resultText} file={file}/>: 
     
     <div className='main2'>
+     
+      <Parti/>
       <div className='text2'>
        <div className='txt'> 
        <h1>Cloud Computing Technology!</h1> 

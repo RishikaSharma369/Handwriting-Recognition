@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+  
+}
+
+#container {
+    position: relative
+}
+
+#tsparticles{
+
+    position:absolute;
+    top: 20%;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    padding: 0;
+    margin: 0;
+    z-index: 0;
+   
+}
